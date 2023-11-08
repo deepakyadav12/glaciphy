@@ -1,0 +1,664 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.margin-left{
+    margin-left: 700px !important;
+}
+a:hover {
+    color: white !important;;
+}
+#darkblue a:hover{
+     color: brown !important;
+}
+#col-md-4-25 {
+    flex: 0 0 auto;
+   
+}
+@media screen and (max-width:500px) {
+    #col-md-4-25 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:768px) {
+    #col-md-4-25 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+#col-md-4-50 {
+    flex: 0 0 auto;
+    width:50%
+    
+}
+@media screen and (max-width:500px){
+    #col-md-4-50 {
+        flex: 0 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px){
+    #col-md-4-50 {
+        flex: 0 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+#text_color{
+    color:rgb(107, 162, 199);
+}
+.topbar {
+     display: none; 
+}
+
+
+
+.margin-left-negative {
+    margin-left: -7%;
+}
+
+.anchor-design{
+    text-decoration: none;
+    color: white;
+   
+}
+a.anchor-designx:hover { 
+    font-size: x-large;
+    
+    
+}
+.icon:hover {
+    color: rgb(116, 244, 248);
+    
+    }
+.cardnegativepadding {
+    margin-top: -50px;
+}
+.cardnegativepadding1 {
+    margin-top: -150px;
+}
+.bg_color {
+    background-color: rgb(24, 27, 48);
+}
+.bg_color_text_white {
+    color: white;
+}
+
+.card-body1 {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.centerimage {
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: -40%;
+}
+
+@media screen and (max-width: 800px) {
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+}
+
+.margin_top {
+    margin-top: 140px;
+}
+@media screen and (max-width:500px) {
+    .margin_top  {
+       margin-top: 30px;
+       
+    }
+}
+@media screen and (max-width:800px) {
+    .margin_top  {
+       margin-top: 30px;
+       
+    }
+}
+
+.margin_bottom {
+      margin-bottom: 10px;
+}
+#card-body {
+    height: auto;
+}
+@media screen and (max-width:500px) {
+    .card-body {
+       
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+@media screen and (max-width:800px) {
+    .card-body {
+       
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+@media screen and (width:500px) {
+    .card-body {
+        margin-bottom: 20px;
+    }
+
+}
+.navbarstyling {
+    background-color: rgba(177, 185, 219, 0.3);
+  position:absolute;
+  z-index: 999999999999;
+  width: 90%;
+  margin: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+  
+}
+#dropdown_color {
+    background-color:rgba(177, 185, 219, 0.3); ;
+}
+@media screen and (max-width:500px) {
+    #dropdown_color {
+        background-color:rgba(74, 83, 122, 1) ;
+    }  
+}
+@media screen and (max-width:500px) {
+    .navbarstyling {
+        background-color:rgba(74, 83, 122, 1);
+      
+      z-index: 999999999999;
+      width: 90%;
+      margin: auto;
+      margin-left: 5%;
+      margin-right: 5%;
+      
+    } 
+}
+
+@media screen and  (max-width:500px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+@media screen and  (max-width:800px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .centerimage {
+        display: block;
+        margin-left: auto;
+      margin-right: auto;
+      margin-top: 0%;
+    
+    }
+}
+.margin-bottom-30 {
+    margin-bottom: 0%;
+}
+@media screen and (max-width:500px) {
+    .margin-bottom-30 {
+        margin-bottom: 30px;
+    }  
+}
+@media screen and (max-width:800px) {
+    .margin-bottom-30 {
+        margin-bottom: 30px;
+    }  
+}
+
+
+.divtransform {
+        width: 55%;
+        height: 300px;
+        background-color:rgb(24, 27, 48);
+        border: 1px solid white;
+        z-index: 9999;
+        position: relative;
+        
+      }
+
+@media  screen and (max-width:800px) {
+    .divtransform {
+        width: 80%;
+        height: auto;
+        background-color:rgb(24, 27, 48);
+        border: 1px solid white;
+        z-index: 9999;
+        position: relative;
+        
+      }
+    
+}      
+
+@media  screen and (max-width:500px) {
+    .divtransform {
+        width: 100%;
+        height: auto;
+        background-color:rgb(24, 27, 48);
+        border: 1px solid white;
+        z-index: 9999;
+        position: relative;
+        
+      }
+    
+} 
+
+.centerimagetest {
+        margin-left: auto;
+      margin-right: auto;
+      
+    }
+.divflip {
+    transform: rotate(-1deg);
+    background-color: blue;
+    width: 50%;
+    height: 200px;
+    border: 1px solid white;
+    margin-top: -150px;
+    margin-left: 315px;
+    z-index: 0;
+}   
+
+@media screen and (max-width:800px){
+    .divflip {
+        transform: unset;
+        background-color: blue;
+        width: 100%;
+        height: 150px;
+        border: 1px solid white;
+        margin-top: -150px;
+        margin-left: 200px;
+        z-index: 0;
+    }  
+    
+}
+
+@media screen and  (max-width:500px) {
+    .divflip {
+        transform:unset;
+        background-color: unset;
+        width:unset;
+        height: unset;
+        border: unset;
+        margin-top:unset;
+        margin-left: unset;
+        z-index: unset;
+    }  
+    
+}
+
+@media screen and  (max-width:1040px) {
+    .divflip {
+        transform: rotate(-1deg);
+        background-color: blue;
+        width: 50%;
+        height: 200px;
+        border: 1px solid white;
+        margin-top: -150px;
+        margin-left: 270px;
+        z-index: 0;
+    }  
+    
+}
+
+.padding_item {
+    padding: 50px;
+}
+
+@media screen and (max-width:800px) {
+    .padding_item {
+        padding: 30px;
+    }
+}
+@media screen and (max-width:1050px) {
+    .padding_item {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .padding_item {
+        padding: 40px;
+    }
+}
+
+.div_small {
+    background-color: rgb(142, 142, 240);
+    width: 18%;
+    height: 80px;
+    border: 1px solid white;
+
+}
+@media screen and (max-width:500px){
+    
+    .div_small {
+        background-color: rgb(142, 142, 240);
+        width: 18%;
+        height: 50px;
+        border: 1px solid white;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:800px){
+    
+    .div_small {
+        background-color: rgb(142, 142, 240);
+        width: 18%;
+        height: 60px;
+        border: 1px solid white;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:1050px){
+    
+    .div_small {
+        background-color: rgb(142, 142, 240);
+        width: 20%;
+        height: 70px;
+        border: 1px solid white;
+        margin-bottom: 30px;
+    }
+}
+#margin_top-20 {
+    margin-top: 0%;
+}
+
+@media screen and (max-width:500px) {
+    #margin_top-20 {
+        margin-top: 3px;
+    }
+      
+}
+
+.carousel-inner {
+    height: 100% !important;
+    width: 100% !important;
+}
+.carousel-item {
+    height: 100% !important;
+    width: 100% !important;
+}
+.container1 {
+    margin-right: auto;
+    margin-left: auto;
+}
+.paragraph {
+    text-align: justify;
+}
+.imageoverlap {
+    z-index: 99;
+    position: relative;
+}
+.teamdiv {
+    background-color: rgba(186, 186, 223, 0.2);
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#working-process .card{
+    height: 100%;
+}
+#divextramargintop {
+    margin-top: 70px;
+}
+
+.containerflip {
+    position: relative;
+  width: 50%;
+}
+
+.button1 {
+    display: block;
+  width: 100%;
+  height: auto;
+}
+.text {
+    white-space: nowrap; 
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+  }
+  .text1 {
+    white-space: nowrap; 
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(168, 168, 216,0.3);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+
+  .containerflip:hover .overlay {
+    width: 100%;
+  }
+  .containerflip1:hover .overlay {
+    width: 100%;
+  }
+  .linkunderline {
+    
+        text-decoration: none;
+      
+      
+  }
+  .careerhead {
+    color: rgba(90, 84, 84,0.9);
+  }
+  .col-6-padding {
+   padding-top: 50px;
+  ;
+}
+.col-6-paddingtext {
+    padding-top: 150px;
+    
+ }
+
+ 
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,0.4), 0 4px 8px rgba(0,0,0,.6);
+}
+.card1:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,0.4), 0 4px 8px rgba(0,0,0,.6);
+ background-color: rgba(168, 168, 216,0.3);
+}
+#col40percentage {
+   
+    
+    border-bottom: 2px ;
+    border-left: 2px ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4), 0 4px 8px rgba(0,0,0,.6);
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 18%;
+    padding-bottom: 18%;
+    
+}
+#col60percentage {
+    
+    
+    
+    border-top: 2px solid black; 
+    border-right: 2px solid black; 
+    border-bottom: 2px ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4), 0 4px 8px rgba(0,0,0,.6);
+    
+    background-image: linear-gradient(to bottom, rgba(166, 167, 192, 0.2), rgba(78, 81, 230, 0.6));
+
+}
+input {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: rgba(126, 129, 131,0.1);
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+iframe:hover {
+    width: 100%;
+    height: 350px;
+    filter: invert(100%);
+}
+
+.rightbox {
+    width: 35%;
+    height:250px;
+    border-radius: 40px;
+    background-color: blueviolet;
+    float: right;
+    margin-top: -110px;
+    margin-left: 62%;
+    position:absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.card-body-background-1 {
+    background:linear-gradient(to bottom right, blue, black);
+}
+
+@media screen and (max-width: 800px) {
+    .rightbox {
+        width: 45%;
+        height:200px;
+        margin-top: -110px;
+        margin-left: 45%;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 500px) {
+.rightbox {
+    width: unset;
+    height:unset;
+    margin-top: unset;
+    margin-left: unset;
+    margin: 1rem;
+    float: none;
+    position: relative;
+}
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu  a:hover {
+    background-color: rgba(177, 185, 219, 0.3);
+}
+.partner_img {
+    border-radius: 6%;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.partner_img1 {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-delay: -20s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#owlid .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.partner_img:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation 
+    border-right: .15em solid rgb(65, 19, 151); /* The typwriter cursor */
+    white-space: normal; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 4, 255); }
+  }
+  #mapwidth {
+    width: 600px;
+  }
+ @media screen and (max-width:500px){
+    #mapwidth {
+        width: 100%;
+      }
+ }
+ 
+ 
